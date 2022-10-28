@@ -11,10 +11,10 @@
 <title>Document</title>
 </head>
 
-<body style="background-color: #F2C9CC; background: url('/maryjayprojeto-main/maryjay/img/beauty01.png'); background-repeat: no-repeat; background-size: cover;">
+<body style="background-color: #F2C9CC; background: url('/img/beauty01.png'); background-repeat: no-repeat; background-size: cover;">
 
   <nav class="navbar col-11 m-auto navbar-expand-lg navbar-light bg-light navegar" style="z-index: 999;">
-    <a class="navbar-brand" href="#">MaryJay</a>
+    <a class="navbar-brand" href="index.html" style="color: #896F25; font-size:xx-large">MaryJay</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -22,14 +22,14 @@
 
     <div class="collapse navbar-collapse col-11 m-auto" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="produtos.html">Produtos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cadastro.html">Cadastro</a>
+          <a class="nav-link active" href="cadastro.html">Cadastro</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.html">Login</a>
@@ -88,7 +88,7 @@
     <button type="button" class="btn btn-success" id="btn">Cadastre-se</button>
     </div>
   </form>
-  <p>Já tem conta?
+  <p style=" text-align:center;">Já tem conta?
   <a href="login.html">logue-se</a>
 </p>
 
@@ -105,11 +105,22 @@
       <a href="#">Copyright Todos os direitos reservados.</a>
     </div>
   </footer>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 
 </html>
-<script src="/maryjayprojeto-main/maryjay/js/login.js"></script>
-<script src="/maryjayprojeto-main/maryjay/js/cep.js"></script>
+<script src="/js/login.js"></script>
+<script src="/js/cep.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
